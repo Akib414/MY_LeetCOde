@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0001-two-sum) |
+| [0078-subsets](https://github.com/Akib414/MY_LeetCOde/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0088-merge-sorted-array) |
 # Hash Table
 |  |
@@ -26,3 +27,11 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0088-merge-sorted-array) |
+# Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Akib414/MY_LeetCOde/tree/master/0078-subsets) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Akib414/MY_LeetCOde/tree/master/0078-subsets) |
