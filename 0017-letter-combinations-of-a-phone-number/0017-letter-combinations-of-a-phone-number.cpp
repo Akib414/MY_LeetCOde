@@ -1,19 +1,25 @@
 class Solution {
-public:
-vector<string> letterCombinations(string digits) {
-    vector<string> res;
-    string charmap[10] = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-    res.push_back("");
-    for (int i = 0; i < digits.size(); i++)
-    {
-        vector<string> tempres;
-        string chars = charmap[digits[i] - '0'];
-        for (int c = 0; c < chars.size();c++)
-            for (int j = 0; j < res.size();j++)
-                tempres.push_back(res[j]+chars[c]);
-        res = tempres;
+    private:
+    void comb(int index , string &digits ,map<char,string>key, string &output , vector<string>&ans){
+        if(index >= digits.size()){
+             ans.push_back(output);
+            return ;
+        }
+        string now_at = key[digits[index]];
+        for(auto a : now_at){
+              output.push_back(a);
+              comb(index+1,digits,key,output,ans);
+              output.pop_back();
+        }
     }
-    if(digits.size() == 0) res.pop_back();
-    return res;
-}
+public:
+    vector<string> letterCombinations(string digits) {
+        map<char,string>key ={{'2',"abc"},{'3',"def"},{'4',"ghi"},{'5',"jkl"},{'6',"mno"},{'7',"pqrs"},{'8',"tuv"},{'9',"wxyz"}};
+    vector<string>ans ;
+    if(digits.size() == 0) return ans;
+    string output;
+    int index = 0;
+    comb(index , digits , key, output , ans);
+    return ans;
+    }
 };
