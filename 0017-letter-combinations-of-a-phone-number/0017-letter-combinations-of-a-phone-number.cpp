@@ -1,25 +1,19 @@
-
 class Solution {
 public:
-    const vector<string> pad = {
-        "", "", "abc", "def", "ghi", "jkl",
-        "mno", "pqrs", "tuv", "wxyz"
-    };
-    
-    vector<string> letterCombinations(string digits) {
-        if (digits.empty()) return {};
-		vector<string> result;
-        result.push_back("");
-        
-        for(auto digit: digits) {
-            vector<string> tmp;
-            for(auto candidate: pad[digit - '0']) {
-                for(auto s: result) {
-                    tmp.push_back(s + candidate);
-                }
-            }
-            result.swap(tmp);
-        }
-        return result;
+vector<string> letterCombinations(string digits) {
+    vector<string> res;
+    string charmap[10] = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    res.push_back("");
+    for (int i = 0; i < digits.size(); i++)
+    {
+        vector<string> tempres;
+        string chars = charmap[digits[i] - '0'];
+        for (int c = 0; c < chars.size();c++)
+            for (int j = 0; j < res.size();j++)
+                tempres.push_back(res[j]+chars[c]);
+        res = tempres;
     }
+    if(digits.size() == 0) res.pop_back();
+    return res;
+}
 };
