@@ -5,26 +5,22 @@
  *     ListNode *next;
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     ListNode(int x, ListN ode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
-    private:
-    void rev(ListNode* &head , ListNode* curr , ListNode* prev){
-        if(curr == NULL){
-            head = prev ;
-            return ;
-        }
-        rev(head,curr->next,curr);
-        curr->next = prev;
 
-    }
 public:
-    ListNode* reverseList(ListNode* head) {
-          ListNode* curr = head ;
-          ListNode* prev = NULL;
-          rev(head, curr , prev);
-          return head;
+        ListNode* rev(ListNode* head) {
+       if(head == NULL || head->next == NULL){
+        return head ;
+       }
+       ListNode* newhead = rev(head->next);
+       head->next->next = head;
+       head->next = NULL;
+       return newhead;
     }
-    
+    ListNode* reverseList(ListNode* head) {
+      return rev(head);
+    }
 };
