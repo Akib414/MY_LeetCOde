@@ -1,0 +1,52 @@
+
+void instail(Node* &ans, Node* & tail , int x){
+	if(ans == NULL ){
+		ans = new Node(x);
+		tail = ans;
+		return ;
+	}
+       Node* temp = new Node(x);
+	   tail->bottom = temp ;
+	   tail = temp;
+}
+
+Node* merge(Node* down ,Node* right){
+	Node* ans = NULL;
+	Node* tail = NULL;
+	while(down != NULL && right != NULL){
+		if(down->data < right->data){
+			instail(ans,tail,down->data);
+			down = down->bottom;
+		}
+		else{
+			instail(ans,tail,right->data);
+			right = right->bottom;	
+		}
+	}
+	while(down != NULL){
+		instail(ans,tail,down->data);
+		down = down->bottom;
+	}
+	while(right != NULL){
+	    
+	    instail(ans,tail,right->data);
+	    right = right->bottom;
+	}
+	
+	 
+    //  print(ans);
+	 return ans;
+}
+Node* flatten(Node* head) 
+{
+	// Write your code here
+	if(head == NULL) return head;
+	Node* temp = head ;
+	Node* down = temp ;
+	Node* right = flatten(temp->next);
+    temp->next = NULL;
+    Node* ans = merge(down,right);
+    // print(ans);
+	return ans;;
+	
+}
