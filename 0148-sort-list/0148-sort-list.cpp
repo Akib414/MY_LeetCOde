@@ -1,69 +1,80 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        //If List Contain a Single or 0 Node
-        if(head == NULL || head ->next == NULL)
+        if (head == nullptr || head->next == nullptr)
             return head;
-        
-        
-        ListNode *temp = NULL;
-        ListNode *slow = head;
-        ListNode *fast = head;
-        
-        // 2 pointer appraoach / turtle-hare Algorithm (Finding the middle element)
-        while(fast !=  NULL && fast -> next != NULL)
-        {
-            temp = slow;
-            slow = slow->next;          //slow increment by 1
-            fast = fast ->next ->next;  //fast incremented by 2
-            
-        }   
-        temp -> next = NULL;            //end of first left half
-        
-        ListNode* l1 = sortList(head);    //left half recursive call
-        ListNode* l2 = sortList(slow);    //right half recursive call
-        
-        return mergelist(l1, l2);         //mergelist Function call
-            
+
+        int length = getLength(head);
+        ListNode dummy(0);
+        dummy.next = head;
+
+        for (int step = 1; step < length; step *= 2) {
+            ListNode* curr = dummy.next;
+            ListNode* tail = &dummy;
+
+            while (curr) {
+                ListNode* left = curr;
+                ListNode* right = split(left, step);
+                curr = split(right, step);
+
+                tail = merge(left, right, tail);
+            }
+        }
+
+        return dummy.next;
     }
-    
-    //MergeSort Function O(n*logn)
-    ListNode* mergelist(ListNode *l1, ListNode *l2)
-    {
-        ListNode *ptr = new ListNode(0);
-        ListNode *curr = ptr;
-        
-        while(l1 != NULL && l2 != NULL)
-        {
-            if(l1->val <= l2->val)
-            {
-                curr -> next = l1;
-                l1 = l1 -> next;
+
+private:
+    int getLength(ListNode* head) {
+        int length = 0;
+        ListNode* curr = head;
+        while (curr) {
+            length++;
+            curr = curr->next;
+        }
+        return length;
+    }
+
+    ListNode* split(ListNode* head, int step) {
+        if (head == nullptr)
+            return nullptr;
+
+        for (int i = 1; i < step && head->next; i++) {
+            head = head->next;
+        }
+
+        ListNode* right = head->next;
+        head->next = nullptr;
+        return right;
+    }
+
+    ListNode* merge(ListNode* left, ListNode* right, ListNode* tail) {
+        ListNode* curr = tail;
+        while (left && right) {
+            if (left->val < right->val) {
+                curr->next = left;
+                left = left->next;
+            } else {
+                curr->next = right;
+                right = right->next;
             }
-            else
-            {
-                curr -> next = l2;
-                l2 = l2 -> next;
-            }
-        
-        curr = curr ->next;
-        
+            curr = curr->next;
         }
-        
-        //for unqual length linked list
-        
-        if(l1 != NULL)
-        {
-            curr -> next = l1;
-            l1 = l1->next;
-        }
-        
-        if(l2 != NULL)
-        {
-            curr -> next = l2;
-            l2 = l2 ->next;
-        }
-        
-        return ptr->next;
+
+        curr->next = left ? left : right;
+        while (curr->next)
+            curr = curr->next;
+
+        return curr;
     }
 };
