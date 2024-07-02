@@ -15,6 +15,9 @@ public:
 */
 
 class Solution {
+
+
+public:
     void instail(Node* &copyhead , Node* &copytail , int x){
         if(copyhead == NULL){
             copyhead = new Node(x);
@@ -25,10 +28,9 @@ class Solution {
         copytail->next = temp ;
         copytail = temp ;
     }
-public:
+
     Node* copyRandomList(Node* head) {
         if(head == NULL) return NULL;
-        map<Node* , Node*>m;
         Node* temp = head ;
         Node* copyhead = NULL;
         Node* copytail = NULL;
@@ -36,20 +38,44 @@ public:
           instail(copyhead,copytail,temp->val);
          temp = temp->next;
         }
-        Node* copy = copyhead ;
+
+        
         temp = head ;
-        while(head != NULL){
-            m[head] = copy ;
-            head = head->next ;
-            copy = copy->next ;
+        Node* t;
+        Node* c = copyhead;
+        Node *cp ;
+
+        while(temp != NULL){
+         t = temp->next ;
+        temp->next = c ;
+        temp = t;
+        cp = c->next;
+        c->next = t ; 
+        c= cp;
         }
-        copy = copyhead ;
-        while(copy != NULL){
-            copy->random = m[temp->random];
-            copy = copy->next ;
-            temp = temp->next ;
-        }
-        return copyhead ;
        
+       temp = head ;
+       c = copyhead;
+       while(temp != NULL && c != NULL){
+        if(temp->random != NULL)
+        temp->next->random = temp->random->next;
+        else
+         temp->next->random = NULL;
+         temp = temp->next->next;
+       }
+
+     temp = head ;
+     c = copyhead ;
+     while(temp != NULL && c != NULL){
+        temp->next = c->next ;
+        temp = temp->next ;
+        if(c->next != NULL)
+        c->next = temp->next ;
+        else
+        c->next = NULL;
+        c = c->next;
+     }
+
+       return copyhead;
     }
 };
