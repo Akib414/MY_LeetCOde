@@ -1,73 +1,69 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-
-      ListNode* fm(ListNode* head){
-        ListNode* slow = head ;
-        ListNode* fast = head->next;
-        while(fast != NULL && fast->next != NULL){
-            slow = slow->next ;
-            fast = fast->next->next ;
-        }
-        return slow;
-      }
-
-      void instail(ListNode* &ans , ListNode* &tail , int x){
-        if(tail == NULL){
-            ans = new ListNode(x);
-            tail = ans;
-            return;
-        }
-        ListNode* temp = new ListNode(x);
-        tail->next = temp ;
-        tail = temp ;
-      }
-
-
-      ListNode* merge(ListNode* first , ListNode* second){
-        if(first == NULL) return second ;
-        if(second == NULL) return first;
-        ListNode* ans = NULL;
-        ListNode* tail = NULL;
-        while(first != NULL && second != NULL){
-            if(first->val < second->val){
-              instail(ans,tail,first->val);
-              first = first->next ;
-            }
-            else{
-            instail(ans,tail,second->val);
-              second = second->next ;
-            }
-        }
-        while(first != NULL){
-               instail(ans,tail,first->val);
-              first = first->next ;
-        }
-        while(second != NULL){
-              instail(ans,tail,second->val);
-              second = second->next ; 
-        }
-        return ans;
-      }
-
     ListNode* sortList(ListNode* head) {
-        if(head == NULL || head->next == NULL) return head;
-       ListNode* mid = fm(head);
-       ListNode* temp = mid->next ;
-       mid->next = NULL;
-       ListNode* first = sortList(head) ;
-       ListNode* second = sortList(temp);
-
-       ListNode * ans = merge(first,second);
-       return  ans;
+        //If List Contain a Single or 0 Node
+        if(head == NULL || head ->next == NULL)
+            return head;
+        
+        
+        ListNode *temp = NULL;
+        ListNode *slow = head;
+        ListNode *fast = head;
+        
+        // 2 pointer appraoach / turtle-hare Algorithm (Finding the middle element)
+        while(fast !=  NULL && fast -> next != NULL)
+        {
+            temp = slow;
+            slow = slow->next;          //slow increment by 1
+            fast = fast ->next ->next;  //fast incremented by 2
+            
+        }   
+        temp -> next = NULL;            //end of first left half
+        
+        ListNode* l1 = sortList(head);    //left half recursive call
+        ListNode* l2 = sortList(slow);    //right half recursive call
+        
+        return mergelist(l1, l2);         //mergelist Function call
+            
+    }
+    
+    //MergeSort Function O(n*logn)
+    ListNode* mergelist(ListNode *l1, ListNode *l2)
+    {
+        ListNode *ptr = new ListNode(0);
+        ListNode *curr = ptr;
+        
+        while(l1 != NULL && l2 != NULL)
+        {
+            if(l1->val <= l2->val)
+            {
+                curr -> next = l1;
+                l1 = l1 -> next;
+            }
+            else
+            {
+                curr -> next = l2;
+                l2 = l2 -> next;
+            }
+        
+        curr = curr ->next;
+        
+        }
+        
+        //for unqual length linked list
+        
+        if(l1 != NULL)
+        {
+            curr -> next = l1;
+            l1 = l1->next;
+        }
+        
+        if(l2 != NULL)
+        {
+            curr -> next = l2;
+            l2 = l2 ->next;
+        }
+        
+        return ptr->next;
     }
 };
