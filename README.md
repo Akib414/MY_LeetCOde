@@ -93,6 +93,7 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
+| [0190-reverse-bits](https://github.com/Akib414/MY_LeetCOde/tree/master/0190-reverse-bits) |
 ## Sorting
 |  |
 | ------- |
@@ -123,4 +124,8 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Akib414/MY_LeetCOde/tree/master/0074-search-a-2d-matrix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/Akib414/MY_LeetCOde/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
