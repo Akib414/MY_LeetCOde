@@ -109,6 +109,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Akib414/MY_LeetCOde/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/Akib414/MY_LeetCOde/tree/master/0074-search-a-2d-matrix) |
+| [0137-single-number-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0137-single-number-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
 ## Binary Search
@@ -127,5 +128,6 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0137-single-number-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0137-single-number-ii) |
 | [0190-reverse-bits](https://github.com/Akib414/MY_LeetCOde/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
