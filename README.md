@@ -101,4 +101,12 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
+## Array
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Akib414/MY_LeetCOde/tree/master/0035-search-insert-position) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Akib414/MY_LeetCOde/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
