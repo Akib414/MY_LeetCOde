@@ -76,6 +76,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0908-middle-of-the-linked-list) |
 ## Hash Table
@@ -92,6 +93,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akib414/MY_LeetCOde/tree/master/0002-add-two-numbers) |
+| [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -117,6 +119,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 ## Binary Search
 |  |
 | ------- |
