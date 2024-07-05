@@ -121,6 +121,7 @@
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
+| [0238-product-of-array-except-self](https://github.com/Akib414/MY_LeetCOde/tree/master/0238-product-of-array-except-self) |
 ## Binary Search
 |  |
 | ------- |
@@ -158,4 +159,8 @@
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Akib414/MY_LeetCOde/tree/master/0055-jump-game) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Akib414/MY_LeetCOde/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
