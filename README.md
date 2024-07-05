@@ -74,6 +74,7 @@
 | [0086-partition-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0086-partition-list) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0908-middle-of-the-linked-list) |
 ## Hash Table
@@ -113,6 +114,7 @@
 | [0137-single-number-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0137-single-number-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
 | ------- |
@@ -122,6 +124,7 @@
 | [0074-search-a-2d-matrix](https://github.com/Akib414/MY_LeetCOde/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Matrix
 |  |
 | ------- |
