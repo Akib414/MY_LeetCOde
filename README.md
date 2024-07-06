@@ -148,6 +148,7 @@
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/Akib414/MY_LeetCOde/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
