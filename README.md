@@ -83,6 +83,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
@@ -94,6 +95,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akib414/MY_LeetCOde/tree/master/0002-add-two-numbers) |
+| [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 ## Divide and Conquer
 |  |
@@ -146,6 +148,7 @@
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 ## Backtracking
