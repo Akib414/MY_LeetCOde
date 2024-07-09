@@ -90,6 +90,7 @@
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
@@ -169,4 +170,12 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Akib414/MY_LeetCOde/tree/master/0238-product-of-array-except-self) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
