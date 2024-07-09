@@ -1,0 +1,20 @@
+class Solution{
+public:
+    void insbot(stack<int>&st,int x){
+        if(st.size()==0){
+            st.push(x);
+            return ;
+        }
+        int y = st.top();
+        st.pop();
+        insbot(st,x);
+        st.push(y);
+    }
+    void Reverse(stack<int> &st){
+         if(st.size() == 1) return ;
+         int x = st.top();
+        st.pop();  
+        Reverse(st);
+        insbot(st,x);
+    }
+};
