@@ -90,6 +90,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Akib414/MY_LeetCOde/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
@@ -153,6 +154,7 @@
 | [0006-zigzag-conversion](https://github.com/Akib414/MY_LeetCOde/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 ## Backtracking
 |  |
