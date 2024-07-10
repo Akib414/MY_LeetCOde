@@ -92,6 +92,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
 | [0155-min-stack](https://github.com/Akib414/MY_LeetCOde/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Akib414/MY_LeetCOde/tree/master/0232-implement-queue-using-stacks) |
@@ -158,6 +159,7 @@
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
 ## Backtracking
