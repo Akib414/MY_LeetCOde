@@ -10,55 +10,51 @@
  */
 class Solution {
 public:
-     void instail(ListNode* &head , ListNode* & tail , int x){
-        if(tail == NULL){
-            tail = new ListNode(x);
-            head = tail ;
-            return;
+//   int rec(ListNode* l1 , ListNode* l2){
+      
+      
+//   }
+
+     void instail(ListNode* &hd , ListNode* &tl , int n){
+        
+        if(hd == NULL){
+            hd = new ListNode(n);
+            tl = hd ;
+            return ;
         }
-        ListNode* temp = new ListNode(x);
-        tail->next = temp ;
-        tail = temp;
-    
+        ListNode* temp = new ListNode(n);
+        tl->next = temp;
+        tl = temp;
      }
+
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int extra = 0;
-        ListNode* head = NULL;
-        ListNode* tail = NULL;
-        while(l1 != NULL && l2 != NULL){
-            int total = l1->val + l2->val + extra;
-            int ld = total%10;
-             instail(head,tail,ld);
-             extra = total/10;
-                if(l1->next == NULL &&  l2->next == NULL && extra != 0){
-                instail(head,tail,extra);
-            }
-             l1 = l1->next;
-             l2 = l2->next;
-
-        }
-        while(l1 != NULL){
-            int total = l1->val + extra ;
-            int ld = total%10;
-            instail(head,tail,ld);
-            extra = total/10;
-            if(l1->next == NULL && extra != 0){
-                instail(head,tail,extra);
-            }
-            l1 = l1->next;
-
-        }
-               while(l2 != NULL){
-            int total = l2->val + extra ;
-            int ld = total%10;
-            instail(head,tail,ld);
-            extra = total/10;
-                 if(l2->next == NULL && extra != 0){
-                instail(head,tail,extra);
-            }
+       ListNode* hd = NULL;
+       ListNode* tl = NULL ;
+       int rem = 0;
+       while(l1 != NULL && l2 != NULL){
+            int sum =rem + l1->val + l2->val ;
+            rem = sum/10 ;
+            instail(hd,tl,sum%10);
+            l1 = l1->next ;
             l2 = l2->next;
-        }
-        return head;
 
+       }
+              while(l1 != NULL){
+            int sum =rem + l1->val ;
+            rem = sum/10 ;
+            instail(hd,tl,sum%10);
+            l1 = l1->next ;
+           
+
+       }
+              while( l2 != NULL){
+            int sum =rem + l2->val ;
+            rem = sum/10 ;
+            instail(hd,tl,sum%10);
+            l2 = l2->next;
+       }
+       if(rem != 0) instail(hd,tl,rem);
+return hd ;
+       
     }
 };
