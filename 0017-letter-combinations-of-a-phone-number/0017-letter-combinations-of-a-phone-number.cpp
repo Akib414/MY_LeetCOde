@@ -1,25 +1,28 @@
 class Solution {
-    void process(string* arr, int n, string digits , string &output, vector<string>&ans){
-        if(n>=digits.size()){
-            ans.push_back(output);
-            return ;
-        }
-        int abcd = digits[n]-'0';
-        string s = arr[abcd];
-        for(int i = 0; i<s.size();i++){
-            output.push_back(s[i]);
-            process(arr,n+1,digits,output,ans);
-             output.pop_back();
-        }
-    }
 public:
-    vector<string> letterCombinations(string digits) {
-        string arr[10] ={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-        string output;
-        vector<string>ans={};
-        if(digits.size()==0) return ans;
-        process(arr,0,digits,output,ans);
-        return ans ;
+   void ansify(string digits,string* arr , string &output , vector<string>&ans , int j) {
+    if(j>=digits.size()){
+       
+        ans.push_back(output);
+        return ;
+    }
+    int k = digits[j] -'0';
+    string s = arr[k];
+    for(int i = 0 ; i < s.size(); i++){
+        output.push_back(s[i]);
+        ansify(digits,arr,output , ans , j+1);
+        output.pop_back();
+    }
+   }
 
+
+    vector<string> letterCombinations(string digits) {
+        if(digits.size()==0) return {};
+        string arr[10] = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        vector<string>ans={};
+        string output ;
+        int j = 0;
+        ansify(digits,arr,output , ans , j);
+        return ans;
     }
 };
