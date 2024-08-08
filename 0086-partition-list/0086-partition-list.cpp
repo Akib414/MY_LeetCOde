@@ -9,45 +9,33 @@
  * };
  */
 class Solution {
-    void instails(ListNode* &small,ListNode* &stail, int x){
-     if(small == NULL){
-        small = new ListNode(x);
-        stail = small;
-        return ;
-     }
-     ListNode* temp = new ListNode(x);
-     stail->next = temp;
-     stail = temp;
-    }
-
-    void instailb(ListNode* &big,ListNode* &btail, int x){
-          if(big == NULL){
-        big = new ListNode(x);
-        btail = big;
-        return ;
-     }
-     ListNode* temp = new ListNode(x);
-     btail->next = temp;
-     btail = temp;
-    }
-
 public:
     ListNode* partition(ListNode* head, int x) {
-        if(head == NULL) return NULL;
-        if(head->next==NULL) return head;
-        ListNode* small = NULL;
-        ListNode* stail = NULL;
-        ListNode* big = NULL;
-        ListNode* btail = NULL;
-        while(head != NULL){
-            if(head->val < x)
-            instails(small,stail,head->val);
-            else
-            instailb(big,btail,head->val);
-            head = head->next ;
+        if(head == NULL || head->next == NULL) return head ;
+        ListNode* small = head ;
+        ListNode* big = head ;
+        ListNode* temp = head ;
+        while( small != NULL && small->val >= x)
+        small = small->next ;
+        if(small == NULL) return head ;
+        while(big != NULL && big->val < x )
+        big=big->next ;
+        if(big  == NULL) return head ;
+      ListNode* ans = small ;
+      ListNode* bigpart = big ;
+        while(temp != NULL){
+            if(temp->val < x && temp != small){
+                small->next = temp ;
+                small = temp ;
+            }
+            if(temp->val >= x && temp != big){
+                big->next = temp ;
+                big = temp ;
+            }
+            temp = temp->next ;
         }
-        if(small == NULL) return big;
-        stail->next = big;
-        return small;
+        small->next = bigpart ;
+        big->next = NULL;
+        return ans ;
     }
 };
