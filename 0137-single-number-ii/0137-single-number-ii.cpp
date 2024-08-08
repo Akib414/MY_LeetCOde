@@ -1,20 +1,18 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        if(nums.size() == 1) return nums[0];
-        sort(nums.begin(),nums.end());
-        int i = 0;
-        while( i < nums.size()){
-            if(nums[i]==nums[i+1] && nums[i+1] == nums[i+2]){
-                i+=3 ;
+        int ans = 0;
+        for(int i = 0; i < 32; i++) {
+            int cnt = 0;
+            for(int j : nums) {
+                if(j & (1 << i)) {
+                    cnt++;
+                }
             }
-            else{
-                return nums[i];
-            }
-            if(i==nums.size()-1) {
-                return nums[i];
+            if(cnt % 3) {
+                ans += 1 << i;
             }
         }
-        return -1;
+        return ans;
     }
 };
