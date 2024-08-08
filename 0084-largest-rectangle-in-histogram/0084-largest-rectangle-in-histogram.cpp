@@ -1,49 +1,43 @@
 class Solution {
 public:
-    vector<int>nsr(vector<int>& heights,int n){
-        vector<int>ans(n);
-        stack<pair<int,int>>st;
-        st.push({-1,-1});
-        for(int i = n-1 ; i>= 0 ; i--){
-           while(st.top().first >= heights[i]){
-            st.pop();
-           }
-           if(st.top().first == -1) ans[i] = n ;
-           else{
-            ans[i] = st.top().second;
-           }
-             st.push({heights[i],i});
-        }
-        return ans;
-    }
-
-
-      vector<int>nsl(vector<int>& heights,int n){
-     vector<int>ans(n);
-      stack<pair<int,int>>st;
-     st.push({-1,-1});
-     for(int i = 0 ; i <n ; i++){
-        while(st.top().first >= heights[i])
-        st.pop();
-        ans[i] = st.top().second ;
-        st.push({heights[i],i});
-     }
-
-return ans ;
-      }
-    
-
-
-
     int largestRectangleArea(vector<int>& heights) {
-        vector<int>left = nsl( heights,heights.size()) ;
-        vector<int>right = nsr(heights,heights.size());
-     int ans = INT_MIN ;
-     for(int i = 0 ; i<heights.size() ; i++){
-        int l = heights[i];
-        int w = right[i] - left[i] -1 ;
-        ans = max(ans,l*w);
-     }
-    return ans ;
+        int n=heights.size();
+        // calculating next smaller index
+        vector<int>NSI(n);
+        stack<int>st1;
+
+        NSI[n-1]=n;
+        st1.push(n-1);
+        for (int i = n-2; i >= 0; i--){
+            while(st1.size()>0 && heights[st1.top()]>=heights[i]){ 
+                st1.pop();             
+            }
+            if(st1.size()==0) NSI[i]=n;
+            else NSI[i]=st1.top();
+            st1.push(i);  
+        }
+        // calculating previous smaller index
+        vector<int>PSI(n);
+        stack<int>st2;
+        PSI[0]=-1;
+        st2.push(0);
+        for (int i = 1; i < n; i++){
+            while(st2.size()>0 && heights[st2.top()]>=heights[i]){ 
+                st2.pop();             
+            }
+            if(st2.size()==0) PSI[i]=-1;
+            else PSI[i]=st2.top();
+            st2.push(i);  
+        }
+        // area calculation
+        int maxArea=0;
+        for(int i=0; i<n ;i++){
+            int breadth=NSI[i]-PSI[i]-1;
+            int Area = heights[i] * breadth;
+            if(Area > maxArea){
+                maxArea=Area;
+            }
+        }
+        return maxArea;
     }
 };
