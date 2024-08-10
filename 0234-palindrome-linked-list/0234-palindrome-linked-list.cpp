@@ -9,38 +9,20 @@
  * };
  */
 class Solution {
-    ListNode* reverse(ListNode* mid){
-        ListNode* prev = NULL;
-        ListNode* curr= mid;
-        while(curr != NULL){
-            ListNode* forward = curr;
-            curr = curr->next ;
-            forward->next = prev;
-            prev = forward;
-        }
-        return prev;
-    }
-    ListNode* fm(ListNode* head){
-        ListNode* fast = head->next;
-        ListNode* slow = head ;
-        while(fast != NULL && fast->next != NULL){
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        return slow;
-
-    }
 public:
+  void ansify(ListNode* head , ListNode* &temp , int &a){
+     if(head == NULL) return ;
+     ansify(head->next , temp , a);
+     if(head->val != temp->val) a = 1;
+     temp = temp->next ;
+  }
+
+
     bool isPalindrome(ListNode* head) {
-        if(head->next == NULL) return true;
-      ListNode* middle = fm(head);
-   
-      ListNode* m =    reverse(middle->next);
-      while(m != NULL){
-        if(head->val != m->val) return false;
-        m = m->next;
-        head = head->next;
-      }
-      return true;
+        ListNode* temp = head ;
+        int a = 0;
+         ansify(head,temp,a);
+        if(a==1) return false ;
+        return true ;
     }
 };
