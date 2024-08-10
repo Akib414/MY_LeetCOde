@@ -1,51 +1,43 @@
 class MyQueue {
 public:
-    stack<int>mn;
-    stack<int>cp;
-    int l = 0;
+    stack<int>st ;
+
     MyQueue() {
+        
     }
-
-
+    
     void push(int x) {
-     mn.push(x);
+        st.push(x);
     }
+    
     int pop() {
-          stack<int>st = mn;
-        while(!cp.empty()) cp.pop();
+            stack<int>cp;
+        int x;
         while(!st.empty()){
-            cp.push(st.top());
+             x = st.top();
             st.pop();
+            if(!st.empty()) cp.push(x);
         }
-         for(int i = 1 ; i<=l ;i++) cp.pop();
-        int x = cp.top();
-        cp.pop();
-        l++;
-        return x;
+          while(!cp.empty()){
+            st.push(cp.top());
+            cp.pop();
+          }
+        return x ;
     }
     
     int peek() {
-               stack<int>st = mn;
-        while(!cp.empty()) cp.pop();
-        while(!st.empty()){
-            cp.push(st.top());
-            st.pop();
+        stack<int>cp = st ;
+        int x ;
+        while(!cp.empty()){
+            x = cp.top();
+            cp.pop();
         }
-         for(int i = 1 ; i<=l ;i++) cp.pop();
-        int x = cp.top();
-          return x;
+        return x ;
+        
     }
     
     bool empty() {
-                   stack<int>st = mn;
-        while(!cp.empty()) cp.pop();
-        while(!st.empty()){
-            cp.push(st.top());
-            st.pop();
-        }
-         for(int i = 1 ; i<=l ;i++) cp.pop();
-       
-          return cp.empty();
+       return st.empty(); 
     }
 };
 
