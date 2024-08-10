@@ -1,63 +1,64 @@
 class MyCircularDeque {
 public:
-vector<int>v;
-int size = 0;
-int first = 0;
-int rear = -1;
-int n;
+deque<int>dq;
+int l ;
     MyCircularDeque(int k) {
-      v = vector<int>(k,0);
-      n = k;
+        l = k;
     }
     
     bool insertFront(int value) {
-        if(size==n) return false;
-        if(--first < 0) first = n-1;
-        v[first] = value;
-        size++;
-        if(size == 1) rear = first;
-        return true;
+        if(dq.size() < l){
+        dq.push_front(value);
+        return true ;
+        
+        }
+        return false ;
     }
     
     bool insertLast(int value) {
-        if(size==n) return false;
-        if(++rear == n) rear = 0;
-        v[rear] = value ;
-        size++;
-        if(size==1) first = rear;
-        return true;
+        if(dq.size() < l){
+        dq.push_back(value);
+        return true ;
+        }
+        return false ;
     }
     
     bool deleteFront() {
-       if(size==0) return false;
-       if(++first==n) first = 0;
-       size--;
-       return true;
+        if(!dq.empty()){
+        dq.pop_front();
+        return true ;
+        }
+        return false ;
     }
     
     bool deleteLast() {
-        if(size==0) return false;
-          if(--rear<0) rear = n-1;
-        size--;
-        return true;
+                if(!dq.empty()){
+        dq.pop_back();
+        return true ;
+        }
+        return false ;
     }
     
+    
     int getFront() {
-        if(size==0) return -1;
-        return v[first];
+        if(!dq.empty())
+        return dq.front();
+        return -1;
     }
     
     int getRear() {
-         if(size==0) return -1;
-        return v[rear];
+               if(!dq.empty())
+        return dq.back();
+        return -1;
     }
     
     bool isEmpty() {
-        return size==0;
+        return dq.empty();
     }
     
     bool isFull() {
-        return size==n;
+        if(dq.size()==l) return true ;
+        return false ;
     }
 };
 
