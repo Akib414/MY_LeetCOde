@@ -5,22 +5,22 @@
  *     ListNode *next;
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListN ode *next) : val(x), next(next) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
-
 public:
-        ListNode* rev(ListNode* head) {
-       if(head == NULL || head->next == NULL){
-        return head ;
-       }
-       ListNode* newhead = rev(head->next);
-       head->next->next = head;
-       head->next = NULL;
-       return newhead;
-    }
     ListNode* reverseList(ListNode* head) {
-      return rev(head);
+        if(head == NULL || head ->next == NULL) return head ;
+        ListNode* store = NULL ;
+        ListNode* temp = head ;
+        ListNode* save ;
+        while(temp != NULL){
+            save = temp->next ;
+            temp->next = store ;
+            store = temp;
+            temp = save ;  
+        }
+        return store ;
     }
 };
