@@ -6,7 +6,7 @@ public:
         int j = 0 ;
         int ans = INT_MAX ;
         int sum = 0 ;
-         while(i<nums.size() || j<nums.size()){
+         while(i<nums.size() || j<nums.size() && j<=i){
             if(i<nums.size() && sum < target){
                 sum+=nums[i];
                 if(sum>=target)
