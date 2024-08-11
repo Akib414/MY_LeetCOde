@@ -1,69 +1,35 @@
 class Solution {
 public:
     int calculate(string s) {
-        stack<string> st;
-        string str = "";
-        for (int i = 0 ; i<s.size() ; i++) {
-            if (s[i] != ' ') {
-             if(s[i] == '(' || s[i] == ')' || s[i] == '+' || s[i] == '-'  ){
-                if(str != "") {
-                    st.push(str);
-                    str = "";
-                }
-                str+=s[i];
-                st.push(str);
-                str="";
-             }
-             else{
-                while(s[i] != '(' && s[i] != ')' && s[i] != '+' && s[i] != '-' && s[i] != ' ' && i<s.size()){
-            str+=s[i];
-            i++;
+        long long int sum = 0;
+        int sign = 1;
+        stack<pair<int,int>> st;
+
+        for(int i=0; i<s.size();i++){
+            if(isdigit(s[i])){
+                long long int num = 0;
+                while(i<s.size() && isdigit(s[i])){
+                    num = num * 10 + (s[i] - '0');
+                    i++;
                 }
                 i--;
-             }
+                sum += num * sign;
+                sign = 1;
             }
-                    if(str != "") {
-                    st.push(str);
-                    str = "";
-                }
-            if (s[i] == ')') {
-                int ans = 0;
-                int x = 0;
-                string save;
+            else if(s[i] == '('){
+                st.push({sum, sign});
+                sum = 0;
+                sign = 1;
+            }
+            else if(s[i] == ')'){
+                sum = st.top().first + (st.top().second * sum);
                 st.pop();
-                while (st.top() != "(") {
-                    if (st.top() == "+") {
-                        ans = ans + x;
-                    } else if (st.top() == "-") {
-                        ans = ans - x;
-                    } else {
-                        x = stoi(st.top());
-                    }
-                    save = st.top();
-                    st.pop();
-                }
-                if (save != "-" && save != "+")
-                    ans = ans + x;
-                st.pop();
-                st.push(to_string(ans));
+
+            }
+            else if(s[i] == '-'){
+                sign = -1 * sign;
             }
         }
-        int x = 0;
-        int ans = 0;
-        string save;
-        while (!st.empty()) {
-            if (st.top() == "+") {
-                ans = ans + x;
-            } else if (st.top() == "-") {
-                ans = ans - x;
-            } else {
-                x = stoi(st.top());
-            }
-            save = st.top();
-            st.pop();
-        }
-        if (save != "-" && save != "+")
-            ans = ans + x;
-        return ans;
+        return sum;
     }
 };
