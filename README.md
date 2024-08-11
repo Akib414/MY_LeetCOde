@@ -68,6 +68,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/Akib414/MY_LeetCOde/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Akib414/MY_LeetCOde/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
 ## Two Pointers
 |  |
@@ -99,6 +100,7 @@
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Akib414/MY_LeetCOde/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Akib414/MY_LeetCOde/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
@@ -110,6 +112,7 @@
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
+| [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -174,6 +177,7 @@
 | [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
+| [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
 ## Backtracking
 |  |
