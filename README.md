@@ -97,6 +97,7 @@
 | [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Akib414/MY_LeetCOde/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Akib414/MY_LeetCOde/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Akib414/MY_LeetCOde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Akib414/MY_LeetCOde/tree/master/0232-implement-queue-using-stacks) |
@@ -107,6 +108,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akib414/MY_LeetCOde/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 ## Divide and Conquer
 |  |
@@ -134,6 +136,7 @@
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
 | [0134-gas-station](https://github.com/Akib414/MY_LeetCOde/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akib414/MY_LeetCOde/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
