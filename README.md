@@ -83,6 +83,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akib414/MY_LeetCOde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
+| [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0908-middle-of-the-linked-list) |
 ## Hash Table
@@ -182,6 +183,7 @@
 | [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
+| [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
 ## Backtracking
 |  |
@@ -193,6 +195,7 @@
 | ------- |
 | [0055-jump-game](https://github.com/Akib414/MY_LeetCOde/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
+| [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
 ## Greedy
 |  |
 | ------- |
