@@ -96,6 +96,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Stack
 |  |
 | ------- |
@@ -196,6 +197,7 @@
 | [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Backtracking
 |  |
 | ------- |
@@ -251,5 +253,6 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0209-minimum-size-subarray-sum) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akib414/MY_LeetCOde/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
