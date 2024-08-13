@@ -95,6 +95,7 @@
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
+| [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 ## Stack
 |  |
 | ------- |
@@ -155,6 +156,7 @@
 | [0238-product-of-array-except-self](https://github.com/Akib414/MY_LeetCOde/tree/master/0238-product-of-array-except-self) |
 | [0859-design-circular-deque](https://github.com/Akib414/MY_LeetCOde/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Akib414/MY_LeetCOde/tree/master/0860-design-circular-queue) |
+| [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akib414/MY_LeetCOde/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Binary Search
@@ -247,6 +249,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0209-minimum-size-subarray-sum) |
+| [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akib414/MY_LeetCOde/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
