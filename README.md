@@ -95,6 +95,7 @@
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Stack
@@ -196,6 +197,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
+| [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Backtracking
@@ -251,6 +253,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
