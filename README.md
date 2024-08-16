@@ -93,6 +93,7 @@
 | [0012-integer-to-roman](https://github.com/Akib414/MY_LeetCOde/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Akib414/MY_LeetCOde/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
@@ -201,6 +202,7 @@
 | [0020-valid-parentheses](https://github.com/Akib414/MY_LeetCOde/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Akib414/MY_LeetCOde/tree/master/0071-simplify-path) |
+| [0076-minimum-window-substring](https://github.com/Akib414/MY_LeetCOde/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Akib414/MY_LeetCOde/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Akib414/MY_LeetCOde/tree/master/0224-basic-calculator) |
 | [0392-is-subsequence](https://github.com/Akib414/MY_LeetCOde/tree/master/0392-is-subsequence) |
@@ -260,6 +262,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Akib414/MY_LeetCOde/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
