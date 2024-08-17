@@ -1,0 +1,48 @@
+#include <bits/stdc++.h> 
+void solve(int r , int c ,vector < vector < int >> & arr, int n , string &start , vector<string>&ans){
+if(arr[r][c]==0) return ;
+if(r == n-1 && c == n-1){
+    ans.push_back(start);
+    return ;
+}
+if(r != n-1 && arr[r+1][c] == 1){
+    arr[r][c] = 2 ;
+    start += 'D';
+    solve(r+1,c,arr,n,start,ans);
+      start.pop_back();
+
+    arr[r][c] = 1;
+}
+if(c != 0 && arr[r][c-1]==1){
+    arr[r][c] = 2 ;
+    start +='L';
+    solve(r,c-1,arr,n,start,ans);
+         start.pop_back();
+
+    arr[r][c] = 1;
+}
+if(c != n-1 && arr[r][c+1] == 1){
+    arr[r][c] = 2 ;
+    start += 'R';
+    solve(r,c+1,arr,n,start,ans);
+      start.pop_back();
+
+    arr[r][c] = 1;
+}
+if(r != 0 && arr[r-1][c] == 1){
+    arr[r][c] = 2 ;
+    start += 'U';
+    solve(r-1,c,arr,n,start,ans);
+    start.pop_back();
+    arr[r][c] = 1;
+}
+
+}
+
+
+vector < string > searchMaze(vector < vector < int >> & arr, int n) {
+    string start = "";
+    vector<string>ans ;
+    solve(0,0,arr,n,start,ans);
+    return ans;
+}
