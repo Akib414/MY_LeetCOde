@@ -147,6 +147,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Akib414/MY_LeetCOde/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Akib414/MY_LeetCOde/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/Akib414/MY_LeetCOde/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Akib414/MY_LeetCOde/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/Akib414/MY_LeetCOde/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -213,6 +214,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Akib414/MY_LeetCOde/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0051-n-queens](https://github.com/Akib414/MY_LeetCOde/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/Akib414/MY_LeetCOde/tree/master/0077-combinations) |
 ## Dynamic Programming
 |  |
