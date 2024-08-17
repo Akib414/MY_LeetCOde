@@ -1,6 +1,6 @@
 class Solution {
 public:
-      bool if_possible(int r ,int i ,vector<string>&output ,vector<int>&ocup ,int n){
+      bool if_possible(int r ,int i ,vector<string>&output , int n){
 if(r == 0) return true ;
 // else if(find(ocup.begin(),ocup.end(),i)==ocup.end()){
 
@@ -23,15 +23,15 @@ if(r == 0) return true ;
       return true ;
       }
 
-void solve(int r , int n,vector<string>&output ,vector<int>&ocup,vector<vector<string>>&ans){
+void solve(int r , int n,vector<string>&output ,vector<vector<string>>&ans){
     if(r == n){
         ans.push_back(output);
         return ;
     }
     for(int i = 0 ; i < n ;i++){
-        if(if_possible(r,i,output,ocup,n)){
+        if(if_possible(r,i,output,n)){
             output[r][i] = 'Q';
-            solve(r+1,n ,output ,ocup, ans);
+            solve(r+1,n ,output , ans);
             output[r][i] = '.';
         } 
     }
@@ -41,8 +41,8 @@ void solve(int r , int n,vector<string>&output ,vector<int>&ocup,vector<vector<s
     vector<vector<string>> solveNQueens(int n) {
       vector<vector<string>>ans={};
       vector<string>output(n,string(n,'.'));
-      vector<int>ocup ;
-      solve(0,n,output,ocup ,ans ) ; 
+
+      solve(0,n,output,ans ) ; 
       return ans;
     }
 };
