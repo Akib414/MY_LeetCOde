@@ -278,4 +278,20 @@
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/Akib414/MY_LeetCOde/tree/master/1034-subarrays-with-k-different-integers) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
