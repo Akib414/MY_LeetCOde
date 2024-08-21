@@ -99,6 +99,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Akib414/MY_LeetCOde/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akib414/MY_LeetCOde/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akib414/MY_LeetCOde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -135,6 +136,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Merge Sort
 |  |
 | ------- |
@@ -286,6 +288,7 @@
 | [0110-balanced-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -293,12 +296,14 @@
 | [0110-balanced-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -307,4 +312,5 @@
 | [0110-balanced-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
