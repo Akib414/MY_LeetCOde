@@ -1,0 +1,57 @@
+class Solution {
+public:
+
+
+    void leftpart(Node* root , vector<int>&ans){
+        if(root == NULL || (root->left == NULL && root->right==NULL))
+        return ;
+        ans.push_back(root->data);
+        if(root->left) leftpart(root->left , ans);
+        else leftpart(root->right , ans);
+    }
+    
+    
+    void leaf(Node* root , vector<int>&ans){
+        if(root == NULL) return ;
+        if(root->left == NULL && root->right == NULL){
+            ans.push_back(root->data);
+            return ;
+        }
+      leaf(root->left , ans);
+      leaf(root->right , ans);
+      
+    }
+    
+        void rightpart(Node* root , vector<int>&ans){
+        if(root == NULL || (root->left == NULL && root->right==NULL))
+        return ;
+        
+        if(root->right) rightpart(root->right , ans);
+        else rightpart(root->left , ans);
+        ans.push_back(root->data);
+    }
+
+
+    vector <int> boundary(Node *root)
+    {
+        vector<int>ans ;
+        if(root == NULL) return ans ;
+        ans.push_back(root->data);
+        
+       //firstly insert left part of the boundary except leaf ;
+
+       leftpart(root->left , ans);
+       
+       //for inserting the leaf values of left part of the root ;
+
+       leaf(root->left , ans);
+       
+       //for inserting the leaf values of  right part of the root;
+
+       leaf(root->right , ans);
+        
+        //for the right part of the boundary except leaf and root
+
+        rightpart(root->right , ans);
+    }
+};
