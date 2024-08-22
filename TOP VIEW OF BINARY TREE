@@ -1,0 +1,36 @@
+class Solution
+{
+    public:
+    //Function to return a list of nodes visible from the top view 
+    //from left to right in Binary Tree.
+    vector<int> topView(Node *root)
+    {
+        //Your code here
+        int r = 0 ;
+        map<int,int>m ;
+        
+        vector<int>ans ;
+        queue<pair<int,Node*> >q ;
+        q.push(make_pair(r,root));
+        while(!q.empty()){
+            pair<int,Node*> f = q.front();
+            q.pop();
+            int column = f.first ;
+        //only the first column member is visible from top
+            if(m.find(column) == m.end()){
+                m[column] = f.second->data ;
+            }
+            if(f.second->left)
+            q.push(make_pair(column-1,f.second->left));
+            if(f.second->right)
+            q.push(make_pair(column+1,f.second->right)); 
+        }
+            
+       for(auto a : m){
+           ans.push_back(a.second);
+       }
+       return ans;
+    }
+    
+
+};
