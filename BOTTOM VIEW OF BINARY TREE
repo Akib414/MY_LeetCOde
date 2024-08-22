@@ -1,0 +1,29 @@
+
+class Solution {
+  public:
+    vector <int> bottomView(Node *root) {
+        // Your Code Here
+        map<int ,int> m;
+        vector<int>ans ;
+        if(root == NULL) return ans ;
+        queue<pair<int,Node*>>q ;
+        q.push(make_pair(0 , root));
+        while(!q.empty()){
+            pair<int,Node*> f = q.front();
+            q.pop();
+            int column = f.first ;
+            Node* node = f.second;
+
+            //there is no need to think like only store the leaf nodes for every column
+            //just keep updating the column value , while traversing in level order automatically the bottom one of every column will be stored
+
+            m[column] = node->data ;
+            if(node->left) q.push(make_pair(column-1,node->left));
+            if(node->right) q.push(make_pair(column+1,node->right));
+        }
+        for(auto a : m){
+            ans.push_back(m[a.first]);
+        }
+        return ans ;
+    }
+};
