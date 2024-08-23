@@ -95,6 +95,7 @@
 | [0049-group-anagrams](https://github.com/Akib414/MY_LeetCOde/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Akib414/MY_LeetCOde/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/Akib414/MY_LeetCOde/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0142-linked-list-cycle-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akib414/MY_LeetCOde/tree/master/0424-longest-repeating-character-replacement) |
@@ -131,6 +132,7 @@
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
 | [0190-reverse-bits](https://github.com/Akib414/MY_LeetCOde/tree/master/0190-reverse-bits) |
 ## Sorting
@@ -158,6 +160,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/Akib414/MY_LeetCOde/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0134-gas-station](https://github.com/Akib414/MY_LeetCOde/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/Akib414/MY_LeetCOde/tree/master/0137-single-number-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Akib414/MY_LeetCOde/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -289,6 +292,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Akib414/MY_LeetCOde/tree/master/0199-binary-tree-right-side-view) |
@@ -321,6 +325,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Akib414/MY_LeetCOde/tree/master/0199-binary-tree-right-side-view) |
