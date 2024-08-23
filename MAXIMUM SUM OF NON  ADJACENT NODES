@@ -1,0 +1,25 @@
+class Solution{
+    
+ pair<int,int> solve(Node* root){
+   if(root == NULL) return{0,0};
+   pair<int,int>leftp = solve(root->left);
+   pair<int,int>rightp = solve(root->right);
+   pair<int,int>ans ;
+   ans.first = root->data + leftp.second + rightp.second ;
+   ans.second = max(leftp.first,leftp.second) + max(rightp.first , rightp.second); 
+   return ans;
+ }
+    
+  public:
+    //Function to return the maximum sum of non-adjacent nodes.
+    int getMaxSum(Node *root) 
+    {
+        // Add your code here
+    pair<int , int >incexc = solve(root);
+    
+    //pair.first = maxsum including the nodes at current level
+    //pair.second = maxsum excluding the nodes at current level
+    return max(incexc.first , incexc.second);
+    
+    }
+};
