@@ -19,7 +19,7 @@ public:
         traverse(root->right , inorder);
       }
 
-      TreeNode* make(vector<int>inorder , int s , int e){
+      TreeNode* make(vector<int>&inorder , int s , int e){
         if(s > e) return NULL ;
         //find mid 
         int m = s+(e-s)/2 ;
