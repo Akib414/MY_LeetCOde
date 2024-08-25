@@ -1,0 +1,113 @@
+class Solution {
+  public:
+  void BST_TO_SORTED_DLL(Node *root , Node * &head){
+      if(root == NULL) return ;
+      BST_TO_SORTED_DLL(root->right,head);
+      //root will be always less than head 
+      root->right = head ;
+      //head will be always greater than root in these proccess 
+      //as its approching to previous from the rightmost ;
+      if(head)
+      head->left = root ;
+      head = root ;
+      //then when root moves to left the head is parent and left is always  smaller than parent
+      BST_TO_SORTED_DLL(root->left,head);
+  }
+     
+  
+  Node* merge_LL(Node *root1, Node *root2 , vector<int>&v){
+      Node* ans = NULL ;
+      Node* stored_ans = NULL ;
+      if(root1->data < root2->data){
+      ans = root1 ;
+      stored_ans = root1 ;
+      root1 = root1->right ;
+      
+      }
+      else{
+      ans = root2 ;
+      stored_ans = root2 ;
+      root2 = root2->right ;
+      }
+      v.push_back(ans->data);
+      
+      while(root1 != NULL && root2 != NULL){
+          if(root1->data < root2->data){
+              ans->right = root1 ;
+              root1->left = ans ;
+              root1 = root1->right ;
+              ans = ans->right ;
+          }
+          else{
+                 ans->right = root2 ;
+              root2->left = ans ;
+              root2 = root2->right ;
+            ans = ans->right ;  
+          }
+          v.push_back(ans->data);
+          
+      }
+              while(root1 != NULL){
+              ans->right = root1 ;
+              root1->left = ans ;
+              root1 = root1->right ;
+              ans = ans->right ;
+              v.push_back(ans->data);
+              
+          }
+          while(root2 != NULL) {
+                 ans->right = root2 ;
+              root2->left = ans ;
+              root2 = root2->right ;
+            ans = ans->right ;  
+            v.push_back(ans->data);
+          }
+      return stored_ans ;
+      
+  }
+  int length(Node* head){
+      int l = 0 ;
+      while(head != NULL){
+          head = head->right ;
+          l++;
+      }
+      return l ;
+  }
+  
+  Node* make_bst_from_linked_list(Node* & final_head , int n){
+      if(n <= 0 || final_head == NULL) return NULL ;
+      Node* lft = make_bst_from_linked_list(final_head , n/2);
+      //first time it will be the first one aka the smallest one whose lft and rgt is NULL
+      //then it moves to the next greater one aka right ;
+      //declare root which is initially head ;
+      Node* root = final_head ;
+      root->left = lft ;
+      //head is moving 
+      final_head = final_head->right ;
+      Node* rgt = make_bst_from_linked_list(final_head , n - n/2 -1);
+      root->right = rgt ;
+      return root ;
+  }
+  
+  
+  
+  
+    // Function to return a list of integers denoting the node
+    // values of both the BST in a sorted order.
+    vector<int> merge(Node *root1, Node *root2) {
+        // Your code here
+        Node* head = NULL ;
+        BST_TO_SORTED_DLL(root1,head);
+        Node* head1 = head ;
+        head = NULL ;
+        BST_TO_SORTED_DLL(root2 , head);
+        Node* head2 = head ;
+        vector<int>v ;
+        Node* final_head = merge_LL(head1,head2,v);
+        // if the root of bst was needed 
+        Node* root = make_bst_from_linked_list(final_head,length(final_head));
+        
+        
+        return v ;
+    }
+};
