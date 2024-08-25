@@ -1,0 +1,39 @@
+pair<int, int> predecessorSuccessor(TreeNode *root, int key)
+{
+    // Write your code here.
+    //initialy pred and succ is -1 . because it can be last or first in inorder or be a single element
+    int pred = -1 , succ = -1 ;
+    while(root != NULL){
+        //if its going left then it has succ which needs to be updated ;
+        if(key < root->data){
+            succ = root->data ;
+            root = root->left ;
+        }
+        //if its going right then it has pred which also needs to be updated 
+        else if(key>root->data){
+            pred = root->data ;
+            root = root->right ;
+        }
+        
+        else {
+            TreeNode* p = NULL ;
+            TreeNode* s = NULL;
+            // if key is found then the maximum in the left is pred
+           if(root->left) p = root->left;
+           while(p){
+               pred = p->data ;
+               p = p->right ;
+           }
+           if(root->right) s= root->right ;
+           //the min in the right is succ
+           while(s){
+               succ = s->data ;
+               s = s->left ;
+           }
+           break;
+        }
+        
+    }
+    return {pred , succ};
+
+}
