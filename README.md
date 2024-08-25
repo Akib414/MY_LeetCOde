@@ -138,6 +138,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0148-sort-list) |
 | [0190-reverse-bits](https://github.com/Akib414/MY_LeetCOde/tree/master/0190-reverse-bits) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -239,6 +240,7 @@
 | [0011-container-with-most-water](https://github.com/Akib414/MY_LeetCOde/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/Akib414/MY_LeetCOde/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Akib414/MY_LeetCOde/tree/master/0134-gas-station) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -309,6 +311,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
@@ -325,6 +328,7 @@
 | [0437-path-sum-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
@@ -355,6 +359,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
 |  |
@@ -364,4 +369,5 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Akib414/MY_LeetCOde/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
