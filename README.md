@@ -122,6 +122,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/Akib414/MY_LeetCOde/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Akib414/MY_LeetCOde/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/Akib414/MY_LeetCOde/tree/master/0874-backspace-string-compare) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Math
 |  |
 | ------- |
@@ -180,6 +181,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Akib414/MY_LeetCOde/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akib414/MY_LeetCOde/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akib414/MY_LeetCOde/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Binary Search
@@ -273,6 +275,7 @@
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Akib414/MY_LeetCOde/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Sliding Window
 |  |
 | ------- |
@@ -311,6 +314,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
@@ -359,6 +363,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
@@ -369,5 +374,6 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Akib414/MY_LeetCOde/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
