@@ -11,6 +11,29 @@
  */
 class Solution {
 public:
+
+    int solve(TreeNode* root , bool &ans){
+        if(root == NULL) return 0 ;
+        int lft = solve(root->left , ans);
+        int rgt = solve(root->right , ans);
+        if(abs(lft - rgt) > 1) ans = false ;
+        return max(lft, rgt)+1;
+    }
+
+    bool isBalanced(TreeNode* root) {
+        bool ans = true ;
+        int height = solve(root , ans);
+        return ans ;
+    }
+};
+
+
+
+//another process 
+
+/*
+class Solution {
+public:
    pair<int,bool> solve(TreeNode* root){
     if(root == NULL) return  {0,true};
      pair<int,bool>l = solve(root->left);
@@ -29,3 +52,4 @@ public:
         return p.second;
     }
 };
+*/
