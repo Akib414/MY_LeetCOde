@@ -11,27 +11,26 @@
  */
 class Solution {
 public:
-        
-     TreeNode* solve(vector<int>& inorder, vector<int>& postorder ,int start ,int end , int &index , unordered_map<int,int>&m){
-        if((index < 0 && index < inorder.size()) || start > end) return NULL ;
-        int element = postorder[index--];
-        int pos = m[element];
-        TreeNode* root = new TreeNode(element);
-        root->right = solve(inorder,postorder,pos+1,end,index,m);
-        root->left = solve(inorder,postorder,start,pos-1,index,m);
+    
+    int findin(vector<int>& inorder , int s , int e , int key){
+        for(int j = s ; j <= e ; j++)
+        if(inorder[j] == key) return j ;
+        return -1;
+    }
 
-        return root;
-     }
+   TreeNode* solve(vector<int>& inorder, vector<int>& postorder ,int &i , int start , int end){
+    if(i < 0 || start >end) return NULL ;
+    int key = postorder[i--];
+    int pos = findin(inorder,start,end,key);
+    TreeNode* root = new TreeNode(key);
+    root->right = solve(inorder , postorder , i , pos+1 ,end );
+    root->left = solve(inorder , postorder , i , start , pos-1);
+    return root ;
+   }
 
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        //in postorder the last one is the parent , so its left right parent ;
-        //in inorder left parent right 
-        //find the parent in inordered . use map for this 
-        unordered_map<int,int>m;
-        for(int i = inorder.size()-1 ; i>=0 ; i--){
-            m[inorder[i]] = i ;
-        }
-        int index = inorder.size()-1;
-       return solve(inorder,postorder,0,inorder.size()-1,index,m);
+        int i = inorder.size()-1;
+        TreeNode* root = solve(inorder , postorder , i , 0 , i);
+        return root ;
     }
-};  
+};
