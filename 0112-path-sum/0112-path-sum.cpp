@@ -11,35 +11,20 @@
  */
 class Solution {
 public:
-     void solve(TreeNode* root , bool &flag , int &sum,int targetSum){
+    void solve(TreeNode* root, int targetsum , int sum , bool &ans){
+        if(root == NULL) return ;
         if(root->left == NULL && root->right == NULL){
-            sum+=root->val;
-            if(sum == targetSum) flag = true ;
-            sum-=root->val ;
-             return ;
+            sum+=root->val ;
+            if(sum == targetsum) ans = true ;
+            return ;
         }
-        
-        if(root->left != NULL){
-        sum+=root->val ;    
-        solve(root->left,flag , sum , targetSum) ;
-         sum-=root->val;
-  
-        }
-        if(root->right != NULL){
-            sum+=root->val ; 
-        solve(root->right,flag , sum , targetSum);
-       sum-=root->val;
-        }
-    
-               
-        
-     }
+        if(root->left) solve(root->left , targetsum , sum+root->val , ans);
+        if(root->right) solve(root->right , targetsum , sum+root->val , ans);
+    }
 
-    bool hasPathSum(TreeNode* root, int targetSum) {
-        if(root == NULL) return false ;
-        bool flag = false ;
-        int sum = 0 ;
-        solve(root , flag , sum , targetSum);
-         return flag ;
+    bool hasPathSum(TreeNode* root, int targetsum) {
+        bool ans = false ;
+        solve (root , targetsum , 0 , ans);
+        return ans ;
     }
 };
