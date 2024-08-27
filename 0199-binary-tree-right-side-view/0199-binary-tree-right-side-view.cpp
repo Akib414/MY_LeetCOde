@@ -12,21 +12,22 @@
 class Solution {
 public:
    
-    void solve(int row,TreeNode* root ,  vector<int>&ans ,   map<int,bool>&m  )  {
-        if(root == NULL) return ;
-        if(m.find(row) == m.end()){
-            m[row] =true ;
-        ans.push_back(root->val);
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int>ans ;
+        if(root == NULL) return ans ;
+        queue<TreeNode*>q ;
+        q.push(root);
+        while(!q.empty()){
+            int sz = q.size();
+            for(int i = 0 ; i < sz ; i++){
+                TreeNode* f ;
+                f = q.front() ;
+                q.pop();
+                if(f->left) q.push(f->left);
+                if(f->right) q.push(f->right);
+                if( i == sz-1) ans.push_back(f->val);
+            }        
         }
-        if(root->right) solve(row+1,root->right , ans,m);
-        if(root->left) solve(row+1,root->left , ans,m);
-    } 
-
-    vector<int> rightSideView(TreeNode* root ) {
-       vector<int>ans ;  
-       map<int,bool>m ;
-       if(root == NULL) return ans ;
-       solve(0,root,ans,m);
-       return ans;
+        return ans ;
     }
 };
