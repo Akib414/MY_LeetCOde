@@ -26,4 +26,30 @@ public:
           return ans;    
 
     }
+};\
+
+
+*******************************************************  ANOTHER PROCESS ****************************************************************
+class Solution {
+public:
+    pair<int,int> solve(TreeNode* root){
+        if(root == NULL) return {0,0};
+         pair<int,int> lp = solve(root->left);
+         pair<int,int>rp = solve(root->right);
+         int op1 = lp.first ;
+         int op2 = rp.first ;
+         int op3 = lp.second + rp.second + 1;
+         
+         int p1 = max(op1,max(op2,op3));
+         
+         int p2 = max(lp.second,rp.second)+1;
+         return {p1,p2};
+    }
+
+
+    int diameterOfBinaryTree(TreeNode* root) {
+      pair<int,int> p = solve(root);
+      return p.first-1 ;
+    }
+
 };
