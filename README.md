@@ -314,6 +314,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/Akib414/MY_LeetCOde/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
@@ -333,6 +334,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -344,6 +346,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Akib414/MY_LeetCOde/tree/master/0199-binary-tree-right-side-view) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Akib414/MY_LeetCOde/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
@@ -365,6 +368,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/Akib414/MY_LeetCOde/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
@@ -378,6 +382,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Akib414/MY_LeetCOde/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0783-search-in-a-binary-search-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akib414/MY_LeetCOde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1475-maximum-sum-bst-in-binary-tree) |
