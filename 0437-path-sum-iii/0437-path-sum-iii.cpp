@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    void solve(TreeNode* root, int targetsum , vector<int>store, int &count){
+    void solve(TreeNode* root, int targetsum , vector<int>&store, int &count){
         if(root == NULL) return ;
         store.push_back(root->val) ;
         solve(root->left ,targetsum , store , count);
@@ -21,7 +21,8 @@ public:
         for(int i = store.size()-1 ; i >= 0 ; i--){
             sum+= store[i];
             if(sum == targetsum) count++ ;
-        }        
+        } 
+        store.pop_back();       
     }
 
     int pathSum(TreeNode* root, int targetsum) {
