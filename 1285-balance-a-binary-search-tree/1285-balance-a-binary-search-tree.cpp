@@ -11,34 +11,26 @@
  */
 class Solution {
 public:
-     
-      void traverse (TreeNode* root , vector<int>&inorder ){
+    void traverse_in(TreeNode* root , vector<int>&inorder){
         if(root == NULL) return ;
-        traverse(root->left , inorder);
+        traverse_in(root->left , inorder);
         inorder.push_back(root->val);
-        traverse(root->right , inorder);
-      }
+        traverse_in(root->right , inorder);
+    }
 
-      TreeNode* make(vector<int>&inorder , int s , int e){
-        if(s > e) return NULL ;
-        //find mid 
-        int m = s+(e-s)/2 ;
-        //make a node
-        TreeNode* balanced = new TreeNode(inorder[m]);
-        //left part 
-        balanced->left = make(inorder , s , m-1);
-        //right part 
-        balanced->right = make(inorder , m+1 , e);
+     TreeNode* create(vector<int>&inorder , int st , int end){
+        if(st > end || st < 0 || end >=inorder.size()) return NULL ;
+        int mid = st+(end-st)/2 ;
+        TreeNode* balanced = new TreeNode(inorder[mid]);
+        balanced->left = create(inorder , st , mid-1);
+        balanced->right = create(inorder , mid+1 , end);
         return balanced ;
-      }
+     }
 
     TreeNode* balanceBST(TreeNode* root) {
-        //store into vector in inorder format ;
         vector<int>inorder;
-        traverse(root,inorder);
-        //process
-        TreeNode* balanced = make(inorder , 0 , inorder.size()-1);
+         traverse_in(root , inorder);
+        TreeNode* balanced = create(inorder , 0 , inorder.size()-1);
         return balanced ;
-        
     }
 };
