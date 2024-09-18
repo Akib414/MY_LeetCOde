@@ -176,6 +176,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Akib414/MY_LeetCOde/tree/master/0238-product-of-array-except-self) |
 | [0463-island-perimeter](https://github.com/Akib414/MY_LeetCOde/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/Akib414/MY_LeetCOde/tree/master/0695-max-area-of-island) |
 | [0859-design-circular-deque](https://github.com/Akib414/MY_LeetCOde/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Akib414/MY_LeetCOde/tree/master/0860-design-circular-queue) |
 | [0940-fruit-into-baskets](https://github.com/Akib414/MY_LeetCOde/tree/master/0940-fruit-into-baskets) |
@@ -203,6 +204,7 @@
 | [0074-search-a-2d-matrix](https://github.com/Akib414/MY_LeetCOde/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/Akib414/MY_LeetCOde/tree/master/0085-maximal-rectangle) |
 | [0463-island-perimeter](https://github.com/Akib414/MY_LeetCOde/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/Akib414/MY_LeetCOde/tree/master/0695-max-area-of-island) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -337,6 +339,7 @@
 | [0437-path-sum-iii](https://github.com/Akib414/MY_LeetCOde/tree/master/0437-path-sum-iii) |
 | [0463-island-perimeter](https://github.com/Akib414/MY_LeetCOde/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/0543-diameter-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Akib414/MY_LeetCOde/tree/master/0695-max-area-of-island) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1285-balance-a-binary-search-tree) |
@@ -351,6 +354,7 @@
 | [0112-path-sum](https://github.com/Akib414/MY_LeetCOde/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Akib414/MY_LeetCOde/tree/master/0199-binary-tree-right-side-view) |
 | [0463-island-perimeter](https://github.com/Akib414/MY_LeetCOde/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/Akib414/MY_LeetCOde/tree/master/0695-max-area-of-island) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Akib414/MY_LeetCOde/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akib414/MY_LeetCOde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Akib414/MY_LeetCOde/tree/master/2121-find-if-path-exists-in-graph) |
@@ -395,6 +399,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/Akib414/MY_LeetCOde/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Akib414/MY_LeetCOde/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
